@@ -1,7 +1,7 @@
-Base-Tutorial
+Tutorial-Base
 =============
 
-Base Tutorial on Forge For Minecraft 1.6.x
+Minecraft 1.6.x Modding Tutorial "Base" with Minecraft Forge #943.
 
 実行する際はcomフォルダをsrc/minecraft/に, assetsフォルダをbin/minecraft/にコピーしてください.
 
