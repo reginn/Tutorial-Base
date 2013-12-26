@@ -1,11 +1,22 @@
 Tutorial-Base
 =============
 
-Minecraft 1.6.x Modding Tutorial "Base" with Minecraft Forge #943.
+開発環境
+* Minecraft 1.6.4
+* Minecraft Forge #964
+* IntelliJ IDEA 12.6
 
-実行する際はcomフォルダをsrc/minecraft/に, assetsフォルダをbin/minecraft/にコピーしてください.
+Eclipse向け
 
-Eclipse上で実行する場合, assetsフォルダはeclipse/minecraft/bin/assets/に上書きしてください.
+src/main/java/comフォルダ以下をsrc/minecraft/にコピー.
+
+src/main/resources/assetsフォルダをbin/minecraft/にコピー.
+
+Eclipse上で実行する場合, assetsフォルダはeclipse/minecraft/bin/assets/にコピー.
+
+IDEA+ForgeGradle向け
+
+root/srcに上書きするか, githubからclone→モジュール化しない→setting.gradleのincludeにディレクトリ名を追加
 
 チュートリアル内容
 ==================
