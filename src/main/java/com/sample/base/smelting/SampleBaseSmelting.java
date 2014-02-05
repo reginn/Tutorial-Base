@@ -28,6 +28,6 @@ public class SampleBaseSmelting
 		 */
 		GameRegistry.addSmelting(Blocks.dirt,   new ItemStack(Items.diamond), 0.5F);
 		GameRegistry.addSmelting(Items.diamond, new ItemStack(Items.coal),    0.5F);
-        GameRegistry.addSmelting(new ItemStack(Blocks.wool, 1, 15), new ItemStack(Blocks.wool, 1, 0), 0.5F);
+		GameRegistry.addSmelting(new ItemStack(Blocks.wool, 1, 15), new ItemStack(Blocks.wool, 1, 0), 0.5F);
 	}
 }
