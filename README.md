@@ -6,9 +6,7 @@ Tutorial-Base
 * Minecraft Forge #1024
 * IntelliJ IDEA 13.02
 
-srcフォルダを上書きしてください.
-
-チュートリアル内容
+サンプル内容
 ==================
 
 com.sample.base.crafting
