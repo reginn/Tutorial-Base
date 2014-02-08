@@ -20,5 +20,3 @@ com.sample.base.smelting
 com.sample.base.config
 
 * コンフィグファイルの利用方法
-
-push test
