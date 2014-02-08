@@ -78,7 +78,7 @@ public class SampleBaseConfig
 
 			/*
 			 * もしItemIDでもBlockIDでもない数値をコンフィグファイルから設定したい場合は
-			 * xxx = config.get("Category", "key", 100).getInt();
+			 * xxx = config.get("Category", "input", 100).getInt();
 			 * のようにする.
 			 */
 		}
