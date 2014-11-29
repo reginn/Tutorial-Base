@@ -1,10 +1,10 @@
 package com.sample.base.creativetab;
 
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 @Mod(modid = SampleCreativeTabCore.MODID, version = SampleCreativeTabCore.VERSION)
 public class SampleCreativeTabCore

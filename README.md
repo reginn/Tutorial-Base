@@ -2,8 +2,8 @@
 クラフトレシピ, 精錬レシピの追加, configの利用法, クリエイティブタブの追加に関するサンプル.
 
 ## 開発環境
-* Minecraft 1.7.2
-* Minecraft Forge #1024
+* Minecraft 1.8
+* Minecraft Forge #1239
 * IntelliJ IDEA 13.02
 
 ## 利用条件

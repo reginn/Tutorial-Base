@@ -1,12 +1,11 @@
 package com.sample.base.smelting;
 
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.crafting.FurnaceRecipes;
 
 @Mod(modid = SampleBaseSmelting.MODID, version = SampleBaseSmelting.VERSION)
 public class SampleBaseSmelting
@@ -26,7 +25,7 @@ public class SampleBaseSmelting
 		 * (精錬するItem,      精錬結果のItemStack, 精錬後に入手できる経験値) : Itemの場合
 		 * (精錬するItemStack, 精錬結果のItemStack, 精錬後に入手できる経験値) : メタデータ付きのBlock/Itemの場合
 		 */
-		GameRegistry.addSmelting(Blocks.dirt,   new ItemStack(Items.diamond), 0.5F);
+		GameRegistry.addSmelting(Blocks.dirt, new ItemStack(Items.diamond), 0.5F);
 		GameRegistry.addSmelting(Items.diamond, new ItemStack(Items.coal),    0.5F);
 		GameRegistry.addSmelting(new ItemStack(Blocks.wool, 1, 15), new ItemStack(Blocks.wool, 1, 0), 0.5F);
 	}
